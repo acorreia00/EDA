@@ -69,7 +69,7 @@ int main() {
 			if (c==max-freqval)
 						fAbsuluta++;
 			fRelativa=((float)fAbsuluta/(float)nlinhas)*100;
-			printf("%2d a %1d                 %d                     %.0f%%                     ",c,c+freqval,fAbsuluta,fRelativa);
+			printf("%3d a %3d\t\t%3d\t\t\t%.0f\t\t\t", c, c + freqval, fAbsuluta, fRelativa);
 			for(int ctd=0; ctd<fAbsuluta;ctd++) {
 				printf("*");
 			}
