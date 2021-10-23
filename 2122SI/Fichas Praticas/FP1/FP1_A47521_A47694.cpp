@@ -3,12 +3,15 @@
 #include <stdlib.h>
 #include <math.h>
 
+/*Afonso Correia 47521
+  Diogo Justino 47694*/
+
 void estatisticas(int nlinhas, float* val, float& media, float& dp);
 
 int main()
 {
 	FILE* pfile;
-	char nome_ficheiro[] = { "Teste.txt" };
+	char nome_ficheiro[] = { "dados.txt" };
 	float* valores;
 	// lidos do ficheiro
 	int nclasses, nlinhas; // Nº de classes do histograma
@@ -32,28 +35,28 @@ int main()
 		// Leitura das linhas seguintes
 		for (int i = 0; i < nlinhas; i++) {
 			fscanf(pfile, "%f,", &valores[i]);
-			if (valores[i] > vmax || i == 0) vmax = valores[i];
+			if (valores[i] > vmax || i==0) vmax = valores[i];
 			if (valores[i] < vmin || i == 0) vmin = valores[i];
 		}
 		printf("Valor \t \t Freq absoluta  \t    Freq relativa  \t  Representacao grafica\n\n");
 		//ja se tem os 2 valores, o maior e o menor
 		float intervalos;
 		intervalos = (vmax - vmin) / nclasses;
-		for (int i = 0; i < nclasses; i++) {                       //////////////////////             i + 1 == nclasses) && (valores[j] == (vmin + (intervalos * (i+1)) freq++;
-			printf("%.2f a %.2f", vmin + (intervalos * i), vmin + (intervalos * (i + 1)));
+		for (int i = 0; i < nclasses;i++) {                       //////////////////////             i + 1 == nclasses) && (valores[j] == (vmin + (intervalos * (i+1)) freq++;
+			printf("%.2f a %.2f", vmin + (intervalos *i), vmin + (intervalos * (i+1)));
 			printf("\t\t");
 			float freq = 0;
-			for (int j = 0; j < nlinhas; j++) {
-				if ((valores[j] >= vmin + (intervalos * i)) && (valores[j] < vmin + (intervalos * (i + 1)))) freq++;
+			for (int j = 0; j < nlinhas; j++){
+				if ((valores[j] >= vmin + (intervalos * i)) && (valores[j] < vmin + (intervalos * (i+1)))) freq++;
 				if (((i + 1) == nclasses) && (valores[j] == (vmin + (intervalos * (i + 1))))) freq++;
 			}
 			printf("%g", freq);																    //printf da freq absoluta
 			printf("\t\t\t");
 			int freqg = freq;
 			freq /= nlinhas;
-			printf("%g%%", freq * 100);														    // calculo e printf da freq relativa
+			printf("%g%%", freq* 100);														    // calculo e printf da freq relativa
 			printf(" \t \t \t");
-			for (int i = 0; i < freqg; i++) {                                                      // representacao grafica
+			for (int i = 0;i < freqg;i++) {                                                      // representacao grafica
 				printf("*");
 			}
 			printf("\n");
@@ -65,9 +68,9 @@ int main()
 		printf("M%cdia = %g \tDesvio Padr%co = %g\n", 130, media, 198, dpadrao);
 		printf("\n");
 		//printf("nlinhas %d nclasses %d", nlinhas, nclasses);
-		printf("O valor m%cximo %c %g, e o valor minimo %c %g", 160, 130, vmax, 130, vmin);
+		printf("O valor m%cximo %c %g, e o valor minimo %c %g",160, 130,vmax, 130 , vmin);
 		printf("\n\n");
-
+		
 		//delete[] freq;// Libertação da memória ocupada pelo array dinâmico
 		delete[] valores; // Libertação da memória ocupada pelo array dinâmico
 		fclose(pfile);
