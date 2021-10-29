@@ -1,0 +1,6 @@
+# Comentário // linhas iniciadas com # são consideradas comentário
+2 2 // 1ª linha com o nº de linhas e colunas da matriz
+1 // 2ª linha e seguintes com cada elemento da matriz 
+2 
+-3 
+0
