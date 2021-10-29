@@ -1,0 +1,4 @@
+﻿  FP1_A47521_A47694.cpp
+C:\Users\A47521\Desktop\EDA\2122SI\FichasPraticas\FP1\FP1_A47521_A47694.cpp(55,14): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\A47521\Desktop\EDA\2122SI\FichasPraticas\FP1\FP1_A47521_A47694.cpp(89,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  FP1.vcxproj -> C:\Users\A47521\Desktop\EDA\2122SI\FichasPraticas\FP1\Debug\FP1.exe
