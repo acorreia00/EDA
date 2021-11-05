@@ -187,7 +187,7 @@ bool Matrix::SaveToFile(char* file_name)
 	for (int i = 0; i < nLines; i++)
 	{
 		for (int j = 0; j < nCols; j++)
-			fprintf_s(file, "%d \n", elems[i][j]);
+			fprintf_s(file, "%f \n", elems[i][j]);
 	}
 	fclose(file);
 	return true;
