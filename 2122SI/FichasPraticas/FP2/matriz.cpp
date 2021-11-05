@@ -224,36 +224,3 @@ Matrix Matrix::GetLU()
 	}
 	return U;
 }
-
-float Matrix::GetDeterminant(const Matrix& m1)
-{
-	Matrix D(m1.nLines, m1.nCols);
-	float f = 0;
-	if (CanAdd(&m1))
-	{
-		for (int i = 0; i <= nLines;i++)
-		{
-			f += D.elems[i][i];
-		}
-
-		return f;
-	}
-	else
-	{
-		printf("A matriz nao eh quadrada");
-		return 0;
-	}
-}
-/*Matrix Matrix::GetInverse(const Matrix& m1)
-{
-	if ()
-	{
-		Matrix I;
-		I = *this;
-		return I;
-	}
-	else 
-	{
-
-	}
-}*/

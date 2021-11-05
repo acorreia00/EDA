@@ -1,12 +1,3 @@
 ﻿  main.cpp
 C:\Users\A47521\Desktop\EDA\2122SI\FichasPraticas\FP2\main.cpp(8,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
-  matriz.cpp
-C:\Users\A47521\Desktop\EDA\2122SI\FichasPraticas\FP2\matriz.cpp(190,20): warning C4477: 'fprintf_s' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'double'
-C:\Users\A47521\Desktop\EDA\2122SI\FichasPraticas\FP2\matriz.cpp(229,1): error C2511: 'float Matrix::GetDeterminant(const Matrix &)': overloaded member function not found in 'Matrix'
-C:\Users\A47521\Desktop\EDA\2122SI\FichasPraticas\FP2\matriz.h(4): message : see declaration of 'Matrix'
-C:\Users\A47521\Desktop\EDA\2122SI\FichasPraticas\FP2\matriz.cpp(232,6): error C2352: 'Matrix::CanAdd': illegal call of non-static member function
-C:\Users\A47521\Desktop\EDA\2122SI\FichasPraticas\FP2\matriz.cpp(62): message : see declaration of 'Matrix::CanAdd'
-C:\Users\A47521\Desktop\EDA\2122SI\FichasPraticas\FP2\matriz.cpp(234,30): error C2597: illegal reference to non-static member 'Matrix::nLines'
-C:\Users\A47521\Desktop\EDA\2122SI\FichasPraticas\FP2\matriz.cpp(234,30): error C3867: 'Matrix::nLines': non-standard syntax; use '&' to create a pointer to member
-C:\Users\A47521\Desktop\EDA\2122SI\FichasPraticas\FP2\matriz.cpp(234,30): error C2568: '<=': unable to resolve function overload
-  Generating Code...
+  FP2.vcxproj -> C:\Users\A47521\Desktop\EDA\2122SI\FichasPraticas\FP2\Debug\FP2.exe

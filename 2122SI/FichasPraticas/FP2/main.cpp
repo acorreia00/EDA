@@ -6,9 +6,9 @@
 
 void main()
 {
-	char ficheiro_matriz_a[] = { "C:\\Users\\Diogo\\OneDrive\\Ambiente de trabalho\\matriz_1.txt" };
-	char ficheiro_matriz_b[] = { "C:\\Users\\Diogo\\OneDrive\\Ambiente de trabalho\\matriz_2.txt" };
-	char ficheiro_matriz_escrita[] = { "C:\\Users\\Diogo\\OneDrive\\Ambiente de trabalho\\matriz.txt" };
+	char ficheiro_matriz_a[] = { "matrixA.txt" };
+	char ficheiro_matriz_b[] = {"matrixB.txt"};
+	char ficheiro_matriz_escrita[] = { "matrixEXIT.txt" };
 
 	Matrix matriz_a, matriz_b, matriz_c;
 
@@ -54,9 +54,6 @@ void main()
 	printf("Teste LU\n");
 	matriz_b.Output();
 
-	matriz_a.GetDeterminant();
-	printf("teste determinante");
-	matriz_a.Output();
 	/*//Teste de += e *=
     matriz_c = matriz_a;
     printf("Teste +=:\n");
