@@ -1,3 +1,0 @@
-﻿  matriz.cpp
-C:\Users\A47521\Desktop\EDA\2122SI\FichasPraticas\FP2\matriz.cpp(190,20): warning C4477: 'fprintf_s' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'double'
-  FP2.vcxproj -> C:\Users\A47521\Desktop\EDA\2122SI\FichasPraticas\FP2\Debug\FP2.exe

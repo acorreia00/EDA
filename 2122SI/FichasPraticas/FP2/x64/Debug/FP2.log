@@ -1,0 +1,18 @@
+﻿  main.cpp
+C:\Users\A47521\Desktop\EDA\2122SI\FichasPraticas\FP2\main.cpp(11,17): warning C4129: 'A': unrecognized character escape sequence
+C:\Users\A47521\Desktop\EDA\2122SI\FichasPraticas\FP2\main.cpp(11,17): warning C4129: 'D': unrecognized character escape sequence
+C:\Users\A47521\Desktop\EDA\2122SI\FichasPraticas\FP2\main.cpp(11,17): warning C4129: 'E': unrecognized character escape sequence
+C:\Users\A47521\Desktop\EDA\2122SI\FichasPraticas\FP2\main.cpp(11,17): warning C4129: 'F': unrecognized character escape sequence
+C:\Users\A47521\Desktop\EDA\2122SI\FichasPraticas\FP2\main.cpp(11,17): warning C4129: 'm': unrecognized character escape sequence
+C:\Users\A47521\Desktop\EDA\2122SI\FichasPraticas\FP2\main.cpp(14,17): warning C4129: 'A': unrecognized character escape sequence
+C:\Users\A47521\Desktop\EDA\2122SI\FichasPraticas\FP2\main.cpp(14,17): warning C4129: 'D': unrecognized character escape sequence
+C:\Users\A47521\Desktop\EDA\2122SI\FichasPraticas\FP2\main.cpp(14,17): warning C4129: 'E': unrecognized character escape sequence
+C:\Users\A47521\Desktop\EDA\2122SI\FichasPraticas\FP2\main.cpp(14,17): warning C4129: 'F': unrecognized character escape sequence
+C:\Users\A47521\Desktop\EDA\2122SI\FichasPraticas\FP2\main.cpp(14,17): warning C4129: 'm': unrecognized character escape sequence
+  Matrix.cpp
+C:\Users\A47521\Desktop\EDA\2122SI\FichasPraticas\FP2\Matrix.cpp(68,18): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\A47521\Desktop\EDA\2122SI\FichasPraticas\FP2\Matrix.cpp(69,25): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\A47521\Desktop\EDA\2122SI\FichasPraticas\FP2\Matrix.cpp(107,17): warning C4477: 'fscanf' : format string '%f' requires an argument of type 'float *', but variadic argument 1 has type 'int *'
+C:\Users\A47521\Desktop\EDA\2122SI\FichasPraticas\FP2\Matrix.cpp(108,17): warning C4477: 'fscanf' : format string '%f' requires an argument of type 'float *', but variadic argument 1 has type 'int *'
+  Generating Code...
+C:\Users\A47521\Desktop\EDA\2122SI\FichasPraticas\FP2\Matrix.cpp(146): error C4716: 'Matrix::GetLU': must return a value
