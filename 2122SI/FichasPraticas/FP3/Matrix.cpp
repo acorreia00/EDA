@@ -137,11 +137,34 @@ void Matrix::Output() {
 	}
 	printf("\n\n");
 }
-Matrix Matrix::GetLU() {
+ float Matrix::GetLU() {
 	if (nCols != nLinhas)
 		printf("\nImpossivel, Matriz não é quadrada.\n\n");
 	else {
-
+	
 	}
+}
+float Matrix::GetDeterminant(const Matrix& m1)
+{
+	Matrix D(m1.nLinhas, m1.nCols);
+	float f = 0;
+	if (CanAdd(&m1))
+	{
+		for (int i = 0; i <= nLinhas; i++)
+		{
+			f += D.elems[i][i];
+		}
+
+		return f;
+	}
+	else
+	{
+		printf("A matriz nao e quadrada");
+		return 0;
+	}
+}
+Matrix GetInverse() {
+
+
 }
 

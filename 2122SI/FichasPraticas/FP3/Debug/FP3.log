@@ -1,0 +1,7 @@
+﻿  Matrix.cpp
+C:\Users\A47521\Desktop\EDA\2122SI\FichasPraticas\FP3\Matrix.cpp(68,18): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\A47521\Desktop\EDA\2122SI\FichasPraticas\FP3\Matrix.cpp(69,25): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\A47521\Desktop\EDA\2122SI\FichasPraticas\FP3\Matrix.cpp(107,17): warning C4477: 'fscanf' : format string '%f' requires an argument of type 'float *', but variadic argument 1 has type 'int *'
+C:\Users\A47521\Desktop\EDA\2122SI\FichasPraticas\FP3\Matrix.cpp(108,17): warning C4477: 'fscanf' : format string '%f' requires an argument of type 'float *', but variadic argument 1 has type 'int *'
+C:\Users\A47521\Desktop\EDA\2122SI\FichasPraticas\FP3\Matrix.cpp(146): error C4716: 'Matrix::GetLU': must return a value
+C:\Users\A47521\Desktop\EDA\2122SI\FichasPraticas\FP3\Matrix.cpp(169): error C4716: 'GetInverse': must return a value

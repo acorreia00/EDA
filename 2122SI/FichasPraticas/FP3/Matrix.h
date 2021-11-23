@@ -30,5 +30,7 @@ public:
 	bool ReadFromFile(char const* file_name);
 	bool SaveToFile(char const* file_name);
 	void Output();
-	Matrix GetLU();
+	float GetLU();
+	float GetDeterminant(const Matrix& m1);
+	Matrix GetInverse();
 };
