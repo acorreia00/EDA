@@ -1,0 +1,7 @@
+﻿  Window.cpp
+C:\Users\A47521\Desktop\EDA\2122SI\FichasPraticas\FP4\Point.h(13,43): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\A47521\Desktop\EDA\2122SI\FichasPraticas\FP4\Window.cpp(11,216): error C2440: 'initializing': cannot convert from 'const char [8]' to 'LPCWSTR'
+C:\Users\A47521\Desktop\EDA\2122SI\FichasPraticas\FP4\Window.cpp(11,177): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\A47521\Desktop\EDA\2122SI\FichasPraticas\FP4\Window.cpp(14,161): error C2664: 'HWND CreateWindowExW(DWORD,LPCWSTR,LPCWSTR,DWORD,int,int,int,int,HWND,HMENU,HINSTANCE,LPVOID)': cannot convert argument 2 from 'const char [8]' to 'LPCWSTR'
+C:\Users\A47521\Desktop\EDA\2122SI\FichasPraticas\FP4\Window.cpp(14,33): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(4432,1): message : see declaration of 'CreateWindowExW'
